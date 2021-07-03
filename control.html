@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background: #555;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="content">
+<h1>control </h1>
+
+<form name=form1 action="save.php" method="POST">
+  <label for="vol">Volume (between 0 and 180):</label>
+  <hr>
+  <input type="range" id="vol1" name="vol1" min="0" max="180">
+  <hr> 
+  <input type="range" id="vol2" name="vol2" min="0" max="180">
+  <hr> 
+  <input type="range" id="vol3" name="vol3" min="0" max="180">
+  <hr> 
+  <input type="range" id="vol4" name="vol4" min="0" max="180">
+  <hr> 
+  <input type="range" id="vol5" name="vol5" min="0" max="180">
+  <hr> 
+  <input type="range" id="vol6" name="vol6" min="0" max="180">
+  <hr> 
+  <input type="submit" value="svae">
+</form>
+<hr>
+<form name=form2 action="run.php">
+<input type="submit" value="run">
+</form>
+
+</div>
+
+</body>
+</html>
